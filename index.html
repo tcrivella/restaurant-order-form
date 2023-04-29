@@ -1,0 +1,89 @@
+<html>
+<head>
+<title>Document title</title>
+<meta charset='utf-8'>
+<meta name='description' content='Description of document content'>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header role='banner'>
+  <h1>Burger King</h1>
+  <nav>
+    <ol role='navigation'>
+      <li>
+        <a href='#'>Home</a>
+      </li>
+      <li>
+        <a href='#'>About Me</a>
+      </li>
+      <li>
+        <a href='#'>Find a Restaurant</a>
+      </li>
+      <li>
+        <a href='#'>Careers</a>
+      </li>
+    </ol>
+    <form role='search'>
+      <input type='search' placeholder='Enter search term here...'>
+      <input type='submit' value='search'>
+    </form>
+  </nav>
+</header>
+
+<main role='main'>
+  <h2>Our Menu</h2>
+  <ol>
+    <li> <h4>Whopper $3.50</h4></li>
+    <img src="https://www.hungryjacks.com.au/Upload/HJ/Media/Menu/product/Main/WEB_800x600_ALC_10.png" alt="burger" width="200" height="200">
+    <p>A real meaty flame-grilled Whopper® beef patty, topped with tangy pickles, ketchup, fresh tomatoes, crisp lettuce and fresh onions, finished with creamy mayo , and served on a toasted 5" sesame seed bun. Feeling hungry for a real meaty burger yet?</p>
+    <li><h4>Chicken Fries $2.59</h4></li>
+    <img src="https://airfryingfoodie.com/wp-content/uploads/2022/05/Air-Fryer-Chicken-Fries-copy-4-1.jpeg" alt="chicken fries" width="200" height="200">
+    <p>Kid-friendly and quick, these crunchy oven-baked chicken fries are coated with a mixture of crushed potato chips, panko bread crumbs and Parmesan cheese. Dip them in ranch dressing, barbecue sauce or honey-mustard sauce.</p>
+    <li><h4>Frosty $1.00</h4></li>
+    <img src="https://i2.wp.com/mynaturalfamily.com/wp-content/uploads/healthy-frosty-recipe-finished.jpg" alt="frosty" width="150" height="250">
+    <p>BK Signature dessert - cool, creamy and refreshing - thick enough to use a spoon, smooth enough to use a straw.</p>
+</ol>
+  
+<!-- Add your restaurant order form below -->
+  <div class="form">
+<form role='order_form'>
+    <label for="fullname">Full name</label>
+    <input type="text" id="fullname" name="fullname" placeholder="Your full name..">
+    <br/>
+
+    
+    <label for="address">Address</label>
+    <input type="text" id="address" name="address" placeholder="Your Address">
+    <br/>
+
+    <label for="Phonenumber">Phone number</label>
+    <input type="text" id="Phonenumber" name="phonenumber" placeholder="Your phone number..">
+   <br/>
+
+    <label for="EmailAddress">Email Address</label>
+    <input type="text" id="emailaddress" name="EmailAddress" placeholder="Your Email Address..">
+<br/>
+
+
+<label for="expirationdate">Expiration Date</label>
+<input type="text" id="expirationdate" name="expirationdate" placeholder="Your expiration date..">
+<br/>
+<label for="cardnumber">Card Number</label> 
+
+    <input type="text" id="CardNumber" name="CardNumber" placeholder="Your card number..">
+<br/>
+
+<label for="3digitcode">3 Digit Security Code</label>
+    <input id="3digitcode" name="3digitcode" type="number" minlength="3" maxlength="3"><br/>
+
+    <input type='submit' value='Submit'>
+    
+  </form>
+</div>
+<!-- Add your re staurant order form above -->
+</main>
+
+</body>
+</html>
